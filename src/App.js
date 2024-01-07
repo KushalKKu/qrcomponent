@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
 <>
+    <main>
 <div className="container ">
 <div className="card text-center" style={{width: "18rem"}}>
   <img src={qrimg} className="card-img-top" alt="qr-img"/>
@@ -13,7 +14,7 @@ function App() {
   </div>
 </div>
 </div>
-
+  </main>
 </>
   );
 }
